@@ -1,0 +1,140 @@
+/* Cart.css */
+
+/* Định dạng chung cho giỏ hàng */
+.cart {
+    padding: 20px;
+    max-width: 800px;
+    margin: auto;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.cart h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Định dạng từng mục trong giỏ hàng */
+.cart-item {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #ddd;
+    padding: 10px 0;
+}
+
+.cart-item:last-child {
+    border-bottom: none;
+}
+
+.cart-item__image {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 4px;
+    margin-right: 20px;
+}
+
+.cart-item__details {
+    flex: 1;
+}
+
+.cart-item__details h3 {
+    margin: 0;
+    font-size: 18px;
+    color: #333;
+}
+
+.cart-item__details p {
+    margin: 5px 0;
+}
+
+.cart-item__quantity {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+}
+
+.cart-item__quantity button {
+    background-color: #007bff;
+    border: none;
+    color: #fff;
+    padding: 5px 10px;
+    margin: 0 5px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.cart-item__quantity button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
+.cart-item__quantity p {
+    margin: 0;
+    font-size: 16px;
+}
+
+/* Định dạng phần hành động của mỗi mục trong giỏ hàng */
+.cart-item__actions {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.cart-item__actions button {
+    background-color: #28a745;
+    border: none;
+    color: #fff;
+    padding: 10px 15px;
+    margin-right: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.cart-item__actions button.cart-buy-now {
+    background-color: #007bff;
+}
+
+.cart-item__actions button:hover {
+    opacity: 0.9;
+}
+
+/* Định dạng phần tổng kết của giỏ hàng */
+.cart-summary {
+    margin-top: 20px;
+    padding-top: 20px;
+    border-top: 1px solid #ddd;
+}
+
+.cart-summary h3 {
+    font-size: 24px;
+    margin: 0 0 10px;
+    color: #333;
+}
+
+.cart-summary button {
+    background-color: #28a745;
+    border: none;
+    color: #fff;
+    padding: 10px 20px;
+    margin: 5px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.cart-summary button.cart-clear {
+    background-color: #dc3545;
+}
+
+.cart-summary button.cart-buy-all {
+    background-color: #ffc107;
+    color: #000;
+}
+
+.cart-summary button:hover {
+    opacity: 0.9;
+}

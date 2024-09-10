@@ -1,0 +1,233 @@
+.Content {
+    width: 100vw; /* Chiều ngang bằng 100% của viewport */
+    height: 529px;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.Content1 {
+    width: 15%;
+    height: 100%;
+    background-color: #a289d7;
+}
+
+.Content1__a {
+    width: 100%;
+    height: 10%;
+    font-size: 22px;
+    font-weight: 700;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px black solid;
+}
+
+.highlighted {
+    border: 2px solid #007bff; /* Đường viền nổi bật */
+    box-shadow: 0 0 10px rgba(0, 123, 255, 0.5); /* Hiệu ứng bóng đổ */
+    transform: scale(0.8); /* Phóng to nhẹ */
+
+    transition: all 0.3s ease; /* Hiệu ứng chuyển tiếp */
+}
+
+
+.Content1__b {
+    width: 100%;
+    height: 10%;
+    padding-left: 5%;
+    font-size: 18px;
+    border: none;
+    color: #FFFFFF;
+    background-color: #a289d7;
+    border-bottom: 1px black solid;
+}
+
+.Content1__b:hover {
+    cursor: pointer;
+    color: red;
+    background-color: rgba(255, 255, 255, 0.29);
+}
+
+
+.Content2 {
+    width: 75%;
+    height: 100%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.Content2__a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 10%;
+    position: sticky;
+    background-color: black;
+    color: white;
+    top: 0;
+}
+
+.Content2__a-1 {
+    width: 100%;
+    height: 15%;
+    display: flex;
+    border-bottom: 1px solid black;
+}
+
+.Content2__a-1a {
+    width: 33%;
+    height: 100%;
+    padding-left: 10px;
+    font-size: 16px;
+    font-weight: 700;
+    text-decoration: none;
+    color: black;
+}
+
+.Content2__a-1b {
+    width: 10%;
+    height: 100%;
+    background-color: snow;
+}
+
+.Content2__a-1c {
+    width: 10%;
+    height: 100%;
+    padding-left: 10px;
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.Content2__a-1c2 {
+    width: 15%;
+    height: 100%;
+    padding-left: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+    font-weight: 600;
+    color: black;
+}
+
+.Content2__a-1c2:hover {
+    color: #ff5900;
+}
+
+.Content2__a-1d {
+    width: 13%;
+    height: 70%;
+    margin: 10px 2% 0 2%;
+    padding: 0 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+    border: 2px red solid;
+    color: red;
+    border-radius: 4px;
+}
+
+.Content2__a-1d:hover {
+    cursor: pointer;
+    color: white;
+    background: linear-gradient(to right, red 0%, red 50%, transparent 50%, transparent 100%);
+    background-size: 200% 100%;
+    animation: slide-background 0.3s forwards linear;
+}
+
+@keyframes slide-background {
+    0% {
+        background-position: 100% 0;
+    }
+    100% {
+        background-position: 0 0;
+    }
+}
+
+.Content2__a-1e {
+    width: 13%;
+    height: 70%;
+    margin: 10px 2% 0 2%;
+    padding: 0 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: red;
+    font-size: 15px;
+    border: 2px red solid;
+    color: white;
+    border-radius: 4px;
+}
+
+.Content2__a-1e:hover {
+    cursor: pointer;
+    opacity: 0.7;
+}
+
+
+.Content2__a-1d-a {
+    font-size: 12px;
+    padding-left: 5px;
+    padding-top: 7px;
+}
+
+.pagination {
+    position: fixed;
+    bottom: 100px;
+    height: 80px;
+    left: 0;
+    width: 74%;
+    margin-left: 15%;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+    z-index: 1000; /* Đảm bảo phân trang nằm trên các phần tử khác */
+    background-color: black;
+}
+
+.page-button {
+    width: 50px;
+    height: 50px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    color: #333;
+    padding: 10px 15px;
+    margin: 0 5px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.page-button:hover {
+    background-color: #007bff;
+    color: white;
+}
+
+.page-button.active {
+    background-color: #007bff;
+    color: white;
+    border-color: #007bff;
+}
+
+
+.Content3 {
+    width: 10%;
+    height: 100%;
+    background-color: #0925d5;
+}
+
+.Content3__a {
+    width: 100%;
+    height: 100%;
+}

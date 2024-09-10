@@ -1,0 +1,90 @@
+.register {
+    position: fixed; /* Hoặc absolute, tùy vào ngữ cảnh sử dụng */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #b60303; /* Màu nền tùy chọn */
+    z-index: 1000; /* Đảm bảo phần tử luôn nằm trên các phần tử khác */
+    background-image: url("https://images.pexels.com/photos/443446/pexels-photo-443446.jpeg?cs=srgb&dl=pexels-eberhardgross-443446.jpg&fm=jpg");
+    background-size: cover; /* Tùy chọn để hình ảnh phủ kín */
+    background-position: center; /* Căn giữa hình ảnh */
+}
+
+.register_title {
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 50px;
+}
+
+.register_content {
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 50%;
+    margin-left: 25%;
+    height: 60%;
+}
+
+.register_username {
+    height: 50px;
+    width: 78%;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    font-size: 35px;
+    padding-left: 2%;
+    background-color: rgba(213, 218, 222, 0.89);
+    border: none;
+}
+.register_box--password{
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+}
+.register_password {
+    height: 50px;
+    width: 88%;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    font-size: 35px;
+    padding-left: 2%;
+    background-color: rgba(213, 218, 222, 0.89);
+    border: none;
+}
+
+
+.password_hide_presently {
+    height: 50px;
+    width: 10%;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    font-size: 12px;
+    padding-left: 2%;
+    background-color: white;
+    opacity: 0.7;
+    border: none;
+}
+
+.register_login--button {
+    width: 190px;
+    height: 30px;
+    margin-left: 420px;
+    font-size: 20px;
+    border: none;
+    background-color: rgba(213, 218, 222, 0.89);
+    opacity: 0.7;
+}
+
+.register_submit{
+    width: 80%;
+    height: 50px;
+    margin-top: 10px;
+    border-radius: 5px;
+    font-size: 35px;
+    background-color: black;
+    color: white;
+}

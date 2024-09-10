@@ -1,0 +1,194 @@
+.DetailProduct {
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+.DetailProduct__1 {
+    width: 30%;
+    height: 500px;
+    margin: 40px;
+    background-color: #fffafb;
+}
+
+
+.DetailProduct__1 img {
+    width: 100%;
+    height: 600px;
+    background-color: #99b1ff;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    color: black;
+    background-color: rgba(0, 0, 0, 0.5); /* Thêm nền mờ đen để dễ nhìn thấy */
+    border-radius: 50%; /* Bo tròn nút */
+    padding: 20px; /* Tăng kích thước vùng nhấp chuột */
+}
+
+.carousel-control-prev-icon:hover,
+.carousel-control-next-icon:hover {
+    background-color: rgba(0, 0, 0, 0.8); /* Tăng độ tối khi hover */
+}
+
+.DetailProduct__2{
+    width: 65%;
+    height: 700px;
+    background-color: #2d2de5;
+}
+
+.DetailProduct__2-a{
+    width: 90%;
+    height: auto;
+    font-size: 25px;
+    font-weight: 650;
+    margin-left: 5%;
+    margin-top: 5%;
+}
+
+.DetailProduct__2-b{
+    width: 90%;
+    height: 5%;
+    font-size: 18px;
+    font-weight: 500;
+    margin-left: 5%;
+    display: flex;
+}
+
+.DetailProduct__2-c{
+    width: 90%;
+    height: 5%;
+    font-size: 18px;
+    font-weight: 500;
+    margin-left: 5%;
+    display: flex;
+}
+
+.DetailProduct__2-d{
+    width: 90%;
+    height: 10%;
+    font-size: 18px;
+    font-weight: 500;
+    margin-left: 5%;
+    display: flex;
+}
+
+.DetailProduct__2-d1{
+    width: 40px;
+    height: 40px;
+    border-radius: 4px;
+    border: none;
+    font-size: 13px;
+    font-weight: 600;
+    margin: 0 20px;
+}
+
+.DetailProduct__2-d button {
+    width: 40px;
+    height: 40px;
+    border-radius: 4px;
+    border: none;
+    font-size: 13px;
+    font-weight: 600;
+    margin: 0 20px;
+    background-color: white;
+}
+
+.DetailProduct__2-d button.active {
+    cursor: pointer;
+    color: white;
+    background-color: red;
+}
+
+.DetailProduct__2-e{
+    width: 90%;
+    height: 10%;
+    font-size: 18px;
+    font-weight: 500;
+    margin-left: 5%;
+    display: flex;
+}
+
+.decrement-button{
+    width: 30px;
+    height: 30px;
+    border-radius: 4px;
+    border: none;
+    font-size: 13px;
+    font-weight: 600;
+    margin: 0 20px;
+    background-color: white;
+}
+
+.DetailProduct__2-g{
+    width: 90%;
+    height: 10%;
+    font-size: 18px;
+    font-weight: 500;
+    margin-left: 5%;
+    display: flex;
+}
+
+.DetailProduct__2-g1 {
+    width: 20%;
+    height: 70%;
+    margin: 10px 2% 0 2%;
+    padding: 0 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    font-size: 15px;
+    border: 2px red solid;
+    color: red;
+    border-radius: 4px;
+}
+
+.DetailProduct__2-g1:hover {
+    cursor: pointer;
+    color: white;
+    background: linear-gradient(to right, red 0%, red 50%, transparent 50%, transparent 100%);
+    background-size: 200% 100%;
+    animation: slide-background 0.3s forwards linear;
+}
+
+@keyframes slide-background {
+    0% {
+        background-position: 100% 0;
+    }
+    100% {
+        background-position: 0 0;
+    }
+}
+.DetailProduct__2-g1a{
+    font-size: 14px;
+    margin-bottom: 2px;
+    padding: 0 5px;
+}
+
+.DetailProduct__2-g2 {
+    width: 20%;
+    height: 70%;
+    margin: 10px 2% 0 2%;
+    padding: 0 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: red;
+    font-size: 15px;
+    border: 2px red solid;
+    color: white;
+    border-radius: 4px;
+}
+
+.DetailProduct__2-g2:hover {
+    cursor: pointer;
+    opacity: 0.7;
+}
+
+
+
+
+
+
+
